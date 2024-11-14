@@ -1,0 +1,58 @@
+{
+    "plugins": [
+        "sort-imports-es6-autofix",
+        "import",
+        "react",
+        "react-hooks"
+    ],
+    "settings": {
+        "react": {
+            "version": "detect"
+        }
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "plugin:react-hooks/recommended"
+    ],
+    "rules": {
+        "semi": ["error", "never"],
+        "no-use-before-define": "off",
+        "quotes": [2, "single", { "avoidEscape": true }],
+        "jsx-quotes": ["error", "prefer-single"],
+        "no-trailing-spaces": "error",
+        "indent": ["error", 2],
+        "react/prop-types": "warn",
+        "react/no-deprecated": "error",
+        "react/no-direct-mutation-state": "error",
+        "react/no-typos": "error",
+        "react/require-render-return": "error",
+        "react/no-did-update-set-state": 0,
+        "dot-notation": "error",
+        "react-hooks/rules-of-hooks": "error",
+        "react-hooks/exhaustive-deps": "warn",
+        "sort-imports-es6-autofix/sort-imports-es6": [2, {
+            "ignoreCase": false,
+            "ignoreMemberSort": false,
+            "memberSyntaxSortOrder": ["none", "all", "multiple", "single"]
+        }],
+        "arrow-parens": ["error", "as-needed"],
+        "import/newline-after-import": "error",
+        "object-curly-spacing": ["error", "always"],
+        "no-var": "error",
+        "prefer-const": "error",
+        "quote-props": ["error", "consistent-as-needed"],
+        "no-console": [
+            "error",
+            { "allow": ["clear", "info", "error", "dir", "trace"] }
+        ]
+    },
+    "parserOptions": {
+        "ecmaVersion": 2015,
+        "sourceType": "module"
+    },
+    "env": {
+        "browser": true,
+        "node": true
+    }
+}
