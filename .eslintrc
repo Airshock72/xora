@@ -22,7 +22,7 @@
         "jsx-quotes": ["error", "prefer-single"],
         "no-trailing-spaces": "error",
         "indent": ["error", 2],
-        "react/prop-types": "ignore",
+        "react/prop-types": 0,
         "react/no-deprecated": "error",
         "react/no-direct-mutation-state": "error",
         "react/no-typos": "error",
