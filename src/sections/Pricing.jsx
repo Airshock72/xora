@@ -35,14 +35,14 @@ const Pricing = () => {
             </div>
             <div className='pricing-bg'>
               <img
-                src='/images/bg-outlines.svg'
+                src='/xora/images/bg-outlines.svg'
                 width={960}
                 height={380}
                 alt='outline'
                 className='relative z-2'
               />
               <img
-                src='/images/bg-outlines-fill.png'
+                src='/xora/images/bg-outlines-fill.png'
                 width={960}
                 height={380}
                 alt='outline'
@@ -96,7 +96,7 @@ const Pricing = () => {
                       <img
                         alt='check'
                         className='size-10 object-contain'
-                        src='/images/check.png'
+                        src='/xora/images/check.png'
                       />
                       <p className='flex-1'>{feature}</p>
                     </li>

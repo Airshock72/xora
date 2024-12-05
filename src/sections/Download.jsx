@@ -1,7 +1,7 @@
-import React from 'react'
 import { Element } from 'react-scroll'
-import { links, logos } from '../constants/index.jsx'
 import { Marker } from '../components/Marker.jsx'
+import { links, logos } from '../constants/index.jsx'
+import React from 'react'
 
 const Download = () => {
   return (
@@ -12,7 +12,7 @@ const Download = () => {
             <div className='relative mr-6 flex-540 max-xl:flex-280 max-lg:flex-256 max-md:flex-100'>
               <div className='mb-10'>
                 <img
-                  src='/images/xora.svg'
+                  src='/xora/images/xora.svg'
                   width={160}
                   height={55}
                   alt='xora'
@@ -22,7 +22,7 @@ const Download = () => {
                 Try it now free on IOS, Android, PC, Web - whatever your flavor, we've got you covered
               </p>
               <ul className='flex flex-wrap items-center gap-6'>
-                {links.map(({ id, url, icon}) => (
+                {links.map(({ id, url, icon }) => (
                   <li
                     key={id}
                     className='download_tech-link download_tech-link_last-before download_tech-link_last-after'
@@ -35,7 +35,7 @@ const Download = () => {
                         <Marker />
                       </span>
                       <img
-                        src='/images/lines.svg'
+                        src='/xora/images/lines.svg'
                         alt='lines'
                         className='absolute size-13/20 object-contain'
                       />
@@ -52,7 +52,7 @@ const Download = () => {
                   <span className='download_preview-dot left-11 bg-p3' />
                   <span className='download_preview-dot left-16 bg-p1/15' />
                   <img
-                    src='/images/screen.jpg'
+                    src='/xora/images/screen.jpg'
                     width={855}
                     height={655}
                     alt='screen'
@@ -63,7 +63,7 @@ const Download = () => {
             </div>
           </div>
           <ul className='mt-24 flex justify-center max-lg:hidden'>
-            {logos.map(({ id, url, width, height, title}) => (
+            {logos.map(({ id, url, width, height, title }) => (
               <li
                 className='mx-10'
                 key={id}
