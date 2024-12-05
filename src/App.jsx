@@ -5,6 +5,7 @@ import Hero from './sections/Hero.jsx'
 import Pricing from './sections/Pricing.jsx'
 import React from 'react'
 import Testimonials from './sections/Testimonials.jsx'
+import Download from './sections/Download.jsx'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Pricing />
       <Faq />
       <Testimonials />
+      <Download />
     </main>
   )
 }
