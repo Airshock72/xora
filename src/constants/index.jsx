@@ -406,24 +406,24 @@ export const socials = [
     id: '0',
     title: 'x',
     icon: '/images/socials/x.svg',
-    url: '#',
+    url: 'https://x.com/AirShock72',
   },
   {
     id: '1',
     title: 'Threads',
     icon: '/images/socials/threads.svg',
-    url: '#',
+    url: 'https://www.threads.net/@gela_lomidze__',
   },
   {
     id: '2',
     title: 'Instagram',
     icon: '/images/socials/instagram.svg',
-    url: '#',
+    url: 'https://www.instagram.com/gela_lomidze__/',
   },
   {
     id: '3',
     title: 'Discord',
     icon: '/images/socials/discord.svg',
-    url: '#',
+    url: 'https://discord.com/users/Airshock#0049',
   },
 ]
